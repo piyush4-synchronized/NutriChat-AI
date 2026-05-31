@@ -47,10 +47,10 @@ def get_meal_recommendation(user_profile: dict, remaining_calories: int, user_re
         Location: India
         
         TASK:
-        1. Gently and kindly inform them they have hit their calorie goal for today.
-        2. Advise them to skip unnecessary snacks.
-        3. Since they still need to eat for the rest of the day, recommend 1 or 2 "Damage Control" Indian options—ultra-low-calorie, high-volume foods (like clear vegetable soup, cucumber/tomato kachumber salad, or buttermilk/chaas). 
-        4. Explain why these foods will keep them full without ruining their diet, ensuring it is safe for their medical condition.
+        Based on the internet research provided, recommend an Indian meal that fits the calorie goal. 
+        1. You MUST explicitly state the TOTAL NUMBER of food items you are suggesting at the very top (e.g., "I am suggesting 3 items for this meal:").
+        2. You MUST number each food item clearly in a list.
+        3. Explain WHY this meal is safe for their specific condition.
         """
     else:
         # Standard Prompt
